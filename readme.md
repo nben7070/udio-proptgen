@@ -6,8 +6,7 @@ Audio Prompt Generator is a Python project that takes a Spotify playlist as inpu
 
 - Extracts playlist information from a provided Spotify playlist URL
 - Analyzes the playlist's characteristics, such as genre, mood, tempo, and key
-- Generates a tailored prompt for Udio based on the playlist's characteristics
-- Provides a seamless integration between Spotify and Udio
+- Generates a selection of potential prompts
 
 ## Prerequisites
 
@@ -47,7 +46,7 @@ Before running the Audio Prompt Generator, ensure that you have the following:
 
 3. The script will analyze the playlist and generate an Udio prompt based on its characteristics.
 
-4. The generated prompt will be displayed in the console and saved to a file named `udio_prompt.txt`.
+4. The generated prompts will be displayed in the console.
 
 ## Customization
 
