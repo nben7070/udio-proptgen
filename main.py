@@ -50,5 +50,5 @@ def main(url):
 if __name__ == '__main__':
     url = input("Enter spotify playlist url: ")
     while 'spotify.com/playlist' not in url:
-        input("Ensure url contains spotify.com/playlist: ")
+        url = input("Ensure url contains spotify.com/playlist: ")
     main(url)
